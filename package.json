@@ -1,0 +1,34 @@
+{
+  "name": "valueswap-new",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.17",
+    "@rainbow-me/rainbowkit": "^1.2.0",
+    "axios": "^1.6.1",
+    "next": "14.0.2",
+    "react": "^18",
+    "react-awesome-shapes": "^0.1.12",
+    "react-dom": "^18",
+    "react-player": "^2.13.0",
+    "viem": "^1.18.9",
+    "wagmi": "^1.4.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}

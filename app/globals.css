@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.valueSwap__content {
+  @apply absolute w-full h-full top-0 flex flex-col justify-center items-center text-white shadow-inner lg:border-r-[70vh] lg:border-solid lg:border-r-[#26112f]/30 lg:border-l-[70vh] lg:border-l-[#26112f]/30 lg:border-t-[50vh] lg:border-t-transparent lg:border-b-[50vh] lg:border-b-transparent;
+}
+
+.overlay {
+  @apply absolute top-0 left-0 w-full h-full bg-black/90;
+}
+
+.MuiPopover-root .MuiPaper-root {
+  @apply absolute bg-black/50 sm:left-1 left-2 text-white h-[15rem];
+}
+
+.MuiPopover-root .MuiPaper-root .MuiMenuItem-root {
+  @apply hover:bg-[#26112f] flex justify-center max-sm:left-4 transition-all ease-in duration-300;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #343333;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 0.5s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
