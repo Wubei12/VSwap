@@ -14,7 +14,7 @@ export default function Home() {
       </Box>
       <Box className='valueSwap__content flex-wrap triangleDivs'>
       </Box>
-        <div className='absolute w-full h-full flex flex-col items-center justify-center z-10'>
+        <div className='absolute w-full h-full overflow-x-hidden flex flex-col items-center justify-center z-10'>
           <div>
 
           <Image src="/assets/images/logo.png" width={150} height={150} alt='logo' />
