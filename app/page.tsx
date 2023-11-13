@@ -29,13 +29,13 @@ export default function Home() {
           </div>
           <div className='relative flex items-center mt-4 py-6 sm:px-20'>
             <input className='swap__input outline-none focus:border-b-4 transition-all duration-150 ease-in-out focus:border-b-[#6d298a] sm:w-[24rem] w-[22rem] sm:h-[4rem] h-[3rem] sm:px-4 px-2 text-2xl bg-gray-800/40 shadow-2xl sm:mx-4 text-white' placeholder='0.00' />
-            <div className='flex absolute items-center sm:right-24 right-4 text-white bg-transparent'>
+            <div className='flex absolute items-center sm:right-24 right-0 text-white bg-transparent'>
               <Dropdown />
             </div>
           </div>
           <div className='relative flex items-center mt-4 py-6 sm:px-20'>
             <input className='swap__input outline-none focus:border-b-4 transition-all duration-150 ease-in-out focus:border-b-[#6d298a] sm:w-[24rem] w-[22rem] sm:h-[4rem] h-[3rem] sm:px-4 px-2 text-2xl bg-gray-800/40 shadow-2xl sm:mx-4 text-white' placeholder='0.00' />
-            <div className='flex absolute items-center sm:right-24 right-4 text-white bg-transparent'>
+            <div className='flex absolute items-center sm:right-24 right-0 text-white bg-transparent'>
               <Dropdown />
             </div>
           </div>

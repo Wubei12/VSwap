@@ -18,6 +18,18 @@
   @apply hover:bg-[#26112f] flex justify-center max-sm:left-4 transition-all ease-in duration-300;
 }
 
+#demo-customized-select {
+  @apply sm:px-[2rem] px-[1.5rem] sm:py-[1.3rem] py-[0.8rem] right-0;
+}
+
+.MuiInputBase-root svg {
+  @apply sm:mx-0.5 mx-0;
+}
+
+.MuiInputBase-root fieldset {
+  @apply flex justify-between;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
